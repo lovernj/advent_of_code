@@ -1,7 +1,7 @@
 import sys
 raw = open(sys.argv[1],"r").readlines()
 
-
+# Extract input
 in1,in2 = [],[]
 for line in raw:
     a,b = map(int,line.split())
